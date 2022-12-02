@@ -15,14 +15,14 @@ public class Reproduzir extends AppCompatActivity {
     private int id;
     private MediaPlayer mp;
     private Button btplay;
-    private ImageView logo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reproduzir);
         //obter informações por parâmetro
         btplay=findViewById(R.id.btnplay);
-        logo= findViewById(R.drawable.lg);
+
         Intent it=getIntent();
         String valor = (String) it.getSerializableExtra("musica");
         String nome = (String) it.getSerializableExtra("Nome");

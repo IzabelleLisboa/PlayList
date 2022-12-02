@@ -10,12 +10,11 @@
         android:id="@+id/gifImageView"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="16dp"
         android:background="#fff"
         android:src="@drawable/gif2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textmusica"
@@ -23,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:layout_weight="1"
+        android:textSize="14pt"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
